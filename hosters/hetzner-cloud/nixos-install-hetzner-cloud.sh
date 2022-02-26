@@ -66,7 +66,7 @@ echo '
 
   users.users.root.openssh.authorizedKeys.keys = [
     # Replace this by your SSH pubkey!
-    "ssh-rsa AAAAAAAAAAA..."
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCp4N6vv8Tsdk5trycrInmLGkUODtlbcrhvxXk7TbMUHvsbAsxEk8IhEgyGdge65Mnh3EolvDXyzZdnw+n9PIW+k2YfUv3n18Ut/DilDvUjLw3KUQYFCIisnwi6rxwwzPcbmte1gsh9rBWZvT8q0qFvSXSFSa7ERMX7aoH3KFe7P8gOxxm5ovUVZvMdS1mLAhIlFMxVE6Tapcha1Ffgayl9SZqmmJu3nC1wlWKGU6M8HGDopA5CLkCvScxch/eTkaObCzNzGN82l+avC+dMAoN3x3y0KO9Nk8LkU5MwVYubv0ewDIgjfXp1m7qvoS+jbfU4sMyKoJYG2VrAnVIwVWdL dell-laptop-ssh"
   ];
 }
 ' >> /mnt/etc/nixos/configuration.nix
